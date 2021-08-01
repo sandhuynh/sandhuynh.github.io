@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+    font-size: 25px;
+}
+.header-list a{
+    text-decoration: none;
+    color: white;
+}
+.header-list ul{
+    position: absolute;
+    top: 0px;
+    left: 0;
+}
+.header-list li{
+    float: left;
+    width: 150;
+    position: relative;
+    text-align: center;
+    background-color:teal;
+    padding: 26px 59px;
+    list-style: none;
+}
+.header-list li:hover{
+    background-color: rgb(201, 121, 1);
+    cursor: pointer;
+}
+.header-list ul ul{
+    background-color:teal;
+    display: none;
+    left: 0px;
+    top: 80px;
+}
+img.slide {
+    margin-top: 80px;
+    width: 1513.5px;
+    height: 500px;
+}
+img.slide:not(:first-child) {
+    display: none;
+}
+.change-img {
+    text-align: center;
+}
+button {
+    background: rgb(0, 153, 255);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 20px;
+    font-weight: bold;
+    border: none;
+}
+button.active {
+    background: rgb(0, 63, 105);
+    color: white;
+}
+
+.main{
+    background-color: #ffffff;
+    height: 850px;
+}
+.iphone-logo h4 {
+    font-size: 35px;
+    background-color: rgb(17, 204, 142);
+    margin: 10px;
+}
+.iphone-logo p {
+    font-size: 20px;
+    color: rgb(216, 52, 2);
+    text-align: center;
+    margin: 15px;
+}
+.iphone-item img{
+    height: 200px;
+    width: 190px;
+}
+.iphone-item {
+    float: left;
+    padding: 10px 30px;
+    text-align: center;
+}
+.samsung-logo h4{
+    background-color: rgb(74, 101, 255);
+    text-align: left;
+    font-size: 35px;
+    margin: 10px;
+}
+.samsung-logo p {
+    font-size: 20px;
+    text-align: left;
+    color: rgb(216, 52, 2);
+    text-align: center;
+    margin: 15px;
+}
+.samsung-item img{
+    height: 200px;
+    width: 200px;
+}
+.samsung-item {
+    float: left;
+    padding: 10px 30px;
+    text-align: center;
+}
+.muangay {
+    display: inline-block;
+    cursor: pointer;
+    color:rgb(0, 0, 0);
+    background-color:rgb(214, 0, 0);
+    padding: 10px;
+    font-weight: bold;
+}
+.muangay:active {
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+}
+.tragop{
+    display: inline-block;
+    cursor: pointer;
+    color:rgb(0, 0, 0);
+    background-color:rgb(36, 108, 121);
+    padding: 10px 20px;
+    font-weight: bold;
+    margin: 10px;
+}
+.tragop:active{
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+}
+.footer{
+    background-color: #929296;
+    height: 100px;
+}
+.footer-logo{
+    color: rgb(83, 35, 0);
+    font-size: 25px;
+    padding: 15px 10px;
+    float: left;
+}
+.footer-list{
+    color: rgb(83, 35, 0);
+    font-size: 20px;
+    padding: 15px 10px;
+}
+.footer-list li{
+    list-style: none;
+    float: right;
+    padding: 10px 30px;
+}
