@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+    font-size: 25px;
+}
+.header-list a{
+    text-decoration: none;
+    color: white;
+}
+.header-list ul{
+    position: absolute;
+    top: 243px;
+    background-color:teal;
+}
+.header-list a:active{
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+}
+.header-list ul li{
+    width: 150px;
+    position: relative;
+    text-align: center;
+    padding: 26px 50px;
+    border: 1px solid #ffffff;
+}
+.header-list ul li ul li:hover{
+    background-color: rgb(201, 121, 1);
+    cursor: pointer;
+}
+#header .sub-menu1{
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 250px;
+}
+#header .sub-menu2{
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 250px;
+}
+#header .sub-menu3{
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 250px;
+}
+img.fireworks1{
+    position: absolute;
+    top: 10px;
+    left: 100px;
+    width: 300px;
+    height: 200px;
+    z-index: 2px;
+    display: none;
+}
+img.fireworks2{
+    position: absolute;
+    top: 10px;
+    left: 1100px;
+    width: 300px;
+    height: 200px;
+    z-index: 2px;
+    display: none;
+}
+img.slide {
+    position: block;
+    background-color: rgb(7, 7, 39);
+    margin-top: 10px;
+    padding: 0px 530px;
+    width: 450px;
+    height: 200px;
+    z-index: 1px;
+}
+img.slide:not(:first-child) {
+    display: none;
+}
+.change-img {
+    text-align: center;
+}
+button {
+    background: rgb(0, 153, 255);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 20px;
+    font-weight: bold;
+    border: none;
+}
+button.active {
+    background: rgb(0, 63, 105);
+    color: white;
+}
+
+.main{
+    background-color: #ffffff;
+    height: 540px;
+}
+img.body{
+    width: 1510px;
+    height: 540px;
+}
+img.buf{
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    left: 500px;
+    top: 420px;
+    display: none;
+}
+.footer{
+    position: relative;
+    background-color: #929296;
+    height: 50px;
+    line-height: 50px;
+    width: 1510px;
+}
+img.Back-to-top{
+    position: absolute;
+    left: 720px;
+
+}
