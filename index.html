@@ -5,22 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ABOUT HUYNH VU CAT</title>
-    <script type="text/javascript" src="script.js" ></script>
+    <script src="script.js" ></script>       <!--delete "type" because it's unnecessary for Javascript resource-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
-    <div><img class="fireworks1" src="https://i.gifer.com/54vL.gif"></div>
-    <div><img class="fireworks2" src="https://i.gifer.com/54vL.gif"></div>
+    <div><img class="fireworks1" src="https://i.gifer.com/54vL.gif" alt="fireworks_1" /></div>      <!--add an alt attribute for img-->
+    <div><img class="fireworks2" src="https://i.gifer.com/54vL.gif" alt="fireworks_2" /></div>      <!--add an alt attribute for img-->
     <div class="container">
-        <img class="slide" idx="0" src="https://gamerbraves.sgp1.cdn.digitaloceanspaces.com/2019/08/Tokyo-2020-Olympic-Games.jpg">
-        <img class="slide" idx="1" src="https://i.gifer.com/Dnf.gif">
-        <img class="slide" idx="2" src="https://media0.giphy.com/media/l3vRmI6kBWl4SoJkk/giphy.gif">
+        <img class="slide"  src="https://gamerbraves.sgp1.cdn.digitaloceanspaces.com/2019/08/Tokyo-2020-Olympic-Games.jpg" alt="olympic_tokyo">   <!--idx isn't an attribute in img tag so delete it. Add an alt attribute for img -->
+        <img class="slide"  src="https://i.gifer.com/Dnf.gif" alt="swimming">     <!--idx isn't an attribute in img tag so delete it. Add an alt attribute for img-->
+        <img class="slide"  src="https://media0.giphy.com/media/l3vRmI6kBWl4SoJkk/giphy.gif" alt="athlete">   <!--idx isn't an attribute in img tag so delete it. Add an alt attribute for img-->
     </div>
     <div class="change-img">
-        <button class="active" idx="0">1</button>
-        <button idx="1">2</button>
-        <button idx="2">3</button>
+        <button class="active" >1</button> <!--idx isn't an attribute in button tag so delete it.-->
+        <button >2</button>     <!--idx isn't an attribute in button tag so delete it.-->
+        <button >3</button>     <!--idx isn't an attribute in button tag so delete it.-->
     </div>
 
     <nav>
@@ -132,14 +132,14 @@
     </nav>
 
     <div class = "main">
-        <img class = "body" src="https://img.powerpoint.com.vn/uploads/2019/04/06/hinh-nen-powerpoint-bao-ve-luan-van-de-thuong-dep-nhat_092350621.jpg">
-        <img class = "buf" src="https://2sao.vietnamnetjsc.vn/images/2017/03/02/10/18/10dieuthaydoithegioi.gif">
+        <img class = "body" src="https://img.powerpoint.com.vn/uploads/2019/04/06/hinh-nen-powerpoint-bao-ve-luan-van-de-thuong-dep-nhat_092350621.jpg" alt="flower">    <!--add an alt attribute for img-->
+        <img class = "buf" src="https://2sao.vietnamnetjsc.vn/images/2017/03/02/10/18/10dieuthaydoithegioi.gif" alt="butterfly">      <!--add an alt attribute for img-->
     </div>  
 
     <script src="script.js"></script>
 
     <div class="footer">
-        <img class = "Back-to-top" src="https://1.bp.blogspot.com/-k6sikOdzFXQ/VwqCKDosmEI/AAAAAAAAKxE/nLxLhkTIO6o3iE5ZWmtxo2bf4QHdzPQNQ/s1600/top.png">
+        <img class = "Back-to-top" src="https://1.bp.blogspot.com/-k6sikOdzFXQ/VwqCKDosmEI/AAAAAAAAKxE/nLxLhkTIO6o3iE5ZWmtxo2bf4QHdzPQNQ/s1600/top.png" alt="arrow">     <!--add an alt attribute for img-->
     </div>
 
 </body>
