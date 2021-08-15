@@ -55,7 +55,7 @@ img.fireworks1{
     left: 100px;
     width: 300px;
     height: 200px;
-    z-index: 2px;
+    z-index: 2;              /* 2px isn't a value for z-index. Change it into 2 */
     display: none;
 }
 img.fireworks2{
@@ -64,17 +64,17 @@ img.fireworks2{
     left: 1100px;
     width: 300px;
     height: 200px;
-    z-index: 2px;
+    z-index: 2;              /* 2px isn't a value for z-index. Change it into 2 */
     display: none;
 }
 img.slide {
-    position: block;
+    position: relative;              /* block isn't a value for position property. Change it into relative */
     background-color: rgb(7, 7, 39);
     margin-top: 10px;
     padding: 0px 530px;
     width: 450px;
     height: 200px;
-    z-index: 1px;
+    z-index: 1;              /* 1px isn't a value for z-index. Change it into 1 */
 }
 img.slide:not(:first-child) {
     display: none;
